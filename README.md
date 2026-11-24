@@ -42,6 +42,23 @@ python -m apps.biblioteca_json.main listar
 
 Los archivos de datos se guardan por defecto en una carpeta `data/` relativa al directorio desde el que ejecutas el comando; no se versionan. Consulta el README de cada proyecto para más comandos y formatos.
 
+## Ejecutar en GitHub Codespaces
+
+El repositorio incluye una configuración de Codespaces que instala Python y las dependencias de las aplicaciones al crear el entorno.
+
+1. Abre el repositorio en GitHub y selecciona **Code > Codespaces > Create codespace on main**.
+2. Cuando se abra VS Code en el navegador, abre una terminal y ejecuta cualquiera de los comandos de la sección anterior.
+
+Por ejemplo:
+
+```bash
+python -m apps.clima_api.main Madrid
+python -m apps.control_gastos.main resumen
+python -m apps.biblioteca_json.main listar
+```
+
+La consulta del clima necesita conexión a Internet. Este repositorio es privado: solo tú y las personas con acceso podrán abrir un Codespace. GitHub Codespaces requiere que la función esté disponible en la cuenta y puede estar sujeta a cuotas de uso.
+
 ## Pruebas
 
 Instala las dependencias de las aplicaciones y ejecuta:
