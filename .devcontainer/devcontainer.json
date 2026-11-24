@@ -1,7 +1,7 @@
 {
   "name": "Portafolio Python Junior",
   "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
-  "postCreateCommand": "python -m pip install -r apps/clima_api/requirements.txt -r apps/control_gastos/requirements.txt",
+  "postCreateCommand": "python -m pip install -r apps/clima_api/requirements.txt -r apps/control_gastos/requirements.txt -r apps/analisis_datos/requirements.txt",
   "customizations": {
     "vscode": {
       "extensions": [

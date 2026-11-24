@@ -2,6 +2,10 @@
 
 CLI que busca una ciudad con el servicio de geocodificación de Open-Meteo y presenta las condiciones meteorológicas actuales. No requiere una clave de API.
 
+## Demo web
+
+Prueba la [consulta web del clima](https://cdrrdev-crypto.github.io/portafolio-python-jr/#clima) con cualquier ciudad. La demo llama a Open-Meteo desde el navegador; requiere Internet, no usa una API key y no envía datos a un servidor propio.
+
 ## Instalación
 
 Desde la raíz del repositorio, activa tu entorno virtual e instala la dependencia:

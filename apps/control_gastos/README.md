@@ -2,6 +2,10 @@
 
 Aplicación de consola para registrar gastos personales, calcular totales por categoría y exportar los registros a un libro Excel.
 
+## Demo web
+
+La [demo interactiva](https://cdrrdev-crypto.github.io/portafolio-python-jr/#gastos) permite agregar gastos de prueba y ver su total. Es una demo estática: los datos añadidos no se guardan ni se envían a ningún servidor. La aplicación Python documentada abajo sí guarda los registros en CSV.
+
 ## Instalación
 
 ```powershell

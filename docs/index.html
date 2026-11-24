@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio web de proyectos de Python y análisis de datos.">
+    <meta name="theme-color" content="#f5f7f2">
+    <title>Portafolio | Python y análisis de datos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">PY<span>/</span>DATA</a>
+      <nav aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#demos">Demos</a>
+        <a href="#perfil">Perfil</a>
+      </nav>
+      <a class="header-link" href="https://github.com/cdrrdev-crypto/portafolio-python-jr" target="_blank" rel="noreferrer">Ver repositorio <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero page-width" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> PORTAFOLIO · PYTHON · DATA</p>
+          <h1>Convierto datos<br>en <span class="accent">decisiones.</span></h1>
+          <p class="hero-text">Proyectos prácticos de análisis, automatización y desarrollo con Python. Explora las demos directamente desde tu navegador.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#analisis">Explorar dashboard <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#proyectos">Ver proyectos</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Resumen del portafolio">
+          <div class="hero-card-top"><span>RESUMEN DE PROYECTOS</span><span class="live-pill">EN VIVO</span></div>
+          <div class="hero-graphic" aria-hidden="true">
+            <div class="graphic-grid"></div>
+            <svg viewBox="0 0 360 150" role="img" aria-label="Tendencia ascendente de ejemplo">
+              <defs><linearGradient id="area-fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#b9ef70" stop-opacity=".35"/><stop offset="1" stop-color="#b9ef70" stop-opacity="0"/></linearGradient></defs>
+              <path d="M0 125 C36 116 38 91 76 101 S123 114 155 79 S211 91 239 56 S289 72 319 34 S344 43 360 14 L360 150 L0 150Z" fill="url(#area-fill)"/>
+              <path d="M0 125 C36 116 38 91 76 101 S123 114 155 79 S211 91 239 56 S289 72 319 34 S344 43 360 14" fill="none" stroke="#b9ef70" stroke-width="3"/>
+              <circle cx="360" cy="14" r="5" fill="#b9ef70"/>
+            </svg>
+          </div>
+          <div class="hero-card-stats"><div><strong>04</strong><span>proyectos</span></div><div><strong>04</strong><span>demos web</span></div><div><strong>0 $</strong><span>para probar</span></div></div>
+        </div>
+        <div class="hero-index" aria-hidden="true">01 — PORTAFOLIO DIGITAL</div>
+      </section>
+
+      <section class="section page-width" id="proyectos">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 / TRABAJO SELECCIONADO</p><h2>Proyectos que puedes explorar</h2></div>
+          <p class="section-intro">Cada proyecto combina una necesidad concreta con código claro, documentación y pruebas.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured-project">
+            <div class="project-top"><span class="project-number">01</span><span class="project-tag">DATA ANALYSIS</span></div>
+            <div class="mini-chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <h3>Análisis de ventas</h3>
+            <p>Limpieza y exploración de datos con pandas: ingresos, tendencias, categorías y productos principales.</p>
+            <div class="tag-list"><span>Python</span><span>pandas</span><span>CSV</span></div>
+            <a class="card-link" href="#analisis">Abrir dashboard <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">02</span><span class="project-tag">AUTOMATIZACIÓN</span></div>
+            <div class="project-icon icon-lime" aria-hidden="true">$</div>
+            <h3>Control de gastos</h3>
+            <p>Registro en CSV, resumen por categoría y exportación a Excel con validación de datos.</p>
+            <div class="tag-list"><span>Python</span><span>CSV</span><span>Excel</span></div>
+            <a class="card-link" href="#gastos">Probar demo <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">03</span><span class="project-tag">API REST</span></div>
+            <div class="project-icon icon-blue" aria-hidden="true">☼</div>
+            <h3>Consulta del clima</h3>
+            <p>Consulta de ubicación y clima actual con Open-Meteo, gestión de errores y sin API key.</p>
+            <div class="tag-list"><span>Python</span><span>API</span><span>requests</span></div>
+            <a class="card-link" href="#clima">Probar demo <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">04</span><span class="project-tag">GESTIÓN DE DATOS</span></div>
+            <div class="project-icon icon-orange" aria-hidden="true">▤</div>
+            <h3>Biblioteca JSON</h3>
+            <p>Catálogo de libros con búsqueda, operaciones CRUD y persistencia en formato JSON.</p>
+            <div class="tag-list"><span>Python</span><span>JSON</span><span>CLI</span></div>
+            <a class="card-link" href="#biblioteca">Probar demo <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section analysis-section" id="analisis">
+        <div class="page-width">
+          <div class="section-heading">
+            <div><p class="eyebrow">02 / PROYECTO DESTACADO</p><h2>Dashboard de ventas</h2></div>
+            <p class="section-intro">Datos sintéticos de 2025. Filtra por región o categoría para explorar los resultados.</p>
+          </div>
+          <div class="dashboard">
+            <div class="dashboard-toolbar">
+              <div><span class="dashboard-kicker">VENTAS · 2025</span><h3>Resumen de rendimiento</h3></div>
+              <div class="filters">
+                <label>Categoría<select id="sales-category"><option value="all">Todas</option></select></label>
+                <label>Región<select id="sales-region"><option value="all">Todas</option></select></label>
+              </div>
+            </div>
+            <p class="notice" id="sales-status" role="status">Cargando datos de demostración…</p>
+            <div class="metric-grid">
+              <article class="metric"><span>INGRESOS</span><strong id="metric-revenue">—</strong><small>Ventas filtradas</small></article>
+              <article class="metric"><span>TRANSACCIONES</span><strong id="metric-orders">—</strong><small>Órdenes únicas</small></article>
+              <article class="metric"><span>UNIDADES</span><strong id="metric-units">—</strong><small>Productos vendidos</small></article>
+              <article class="metric"><span>TICKET PROMEDIO</span><strong id="metric-average">—</strong><small>Ingreso por orden</small></article>
+            </div>
+            <div class="chart-grid">
+              <article class="chart-panel"><div class="chart-title"><h4>Ingresos por mes</h4><span>USD</span></div><div id="monthly-chart" class="bar-chart" role="img" aria-label="Gráfico de ingresos por mes"></div></article>
+              <article class="chart-panel"><div class="chart-title"><h4>Ingresos por categoría</h4><span>USD</span></div><div id="category-chart" class="horizontal-chart" role="img" aria-label="Gráfico de ingresos por categoría"></div></article>
+            </div>
+            <div class="dashboard-footer"><span>Fuente: <a href="data/ventas.csv">ventas.csv</a> · datos sintéticos</span><a href="https://github.com/cdrrdev-crypto/portafolio-python-jr/tree/main/apps/analisis_datos" target="_blank" rel="noreferrer">Ver análisis en Python ↗</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section page-width" id="demos">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 / JUEGA CON LAS DEMOS</p><h2>Pequeñas herramientas, en vivo</h2></div>
+          <p class="section-intro">Las demos funcionan en tu navegador. No guardan ni envían los datos que agregues.</p>
+        </div>
+        <div class="demo-grid">
+          <article class="demo-card" id="gastos">
+            <div class="demo-heading"><div><p class="eyebrow">CSV · RESUMEN</p><h3>Control de gastos</h3></div><span class="demo-symbol">$</span></div>
+            <form id="expense-form" class="compact-form">
+              <label>Descripción<input name="description" required maxlength="60" placeholder="Ej. Almuerzo"></label>
+              <div class="form-row"><label>Categoría<input name="category" required maxlength="30" placeholder="Comida"></label><label>Monto (USD)<input name="amount" required type="number" min="0.01" step="0.01" placeholder="12.50"></label></div>
+              <button class="button button-dark" type="submit">Agregar gasto</button>
+            </form>
+            <div class="expense-summary"><span>Total de demostración</span><strong id="expense-total">$0.00</strong></div>
+            <div id="expense-list" class="simple-list" aria-live="polite"></div>
+            <p class="demo-note">Datos de muestra; los cambios duran hasta recargar la página.</p>
+          </article>
+
+          <article class="demo-card" id="clima">
+            <div class="demo-heading"><div><p class="eyebrow">API · TIEMPO ACTUAL</p><h3>Consulta del clima</h3></div><span class="demo-symbol">☼</span></div>
+            <form id="weather-form" class="compact-form inline-form">
+              <label class="sr-only" for="weather-city">Ciudad</label>
+              <input id="weather-city" name="city" required maxlength="80" placeholder="Escribe una ciudad" value="Quito">
+              <button class="button button-dark" type="submit">Consultar</button>
+            </form>
+            <p id="weather-status" class="notice" role="status">Consulta Open-Meteo; no se necesita clave.</p>
+            <div id="weather-result" class="weather-result" aria-live="polite"></div>
+            <p class="demo-note">Requiere conexión a Internet. Servicio: <a href="https://open-meteo.com/" target="_blank" rel="noreferrer">Open-Meteo</a>.</p>
+          </article>
+
+          <article class="demo-card" id="biblioteca">
+            <div class="demo-heading"><div><p class="eyebrow">JSON · BÚSQUEDA</p><h3>Biblioteca JSON</h3></div><span class="demo-symbol">▤</span></div>
+            <label class="search-label">Buscar por título o autor<input id="book-search" type="search" placeholder="Prueba «principito»"></label>
+            <form id="book-form" class="compact-form">
+              <div class="form-row"><label>Título<input name="title" required maxlength="60" placeholder="Título"></label><label>Autor<input name="author" required maxlength="60" placeholder="Autor"></label></div>
+              <div class="form-row"><label>Año<input name="year" required type="number" min="0" max="2100" placeholder="2024"></label><button class="button button-dark" type="submit">Agregar libro</button></div>
+            </form>
+            <div id="book-list" class="simple-list" aria-live="polite"></div>
+            <p class="demo-note">Catálogo de demostración; no persiste al recargar.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="profile-section" id="perfil">
+        <div class="page-width profile-inner">
+          <div><p class="eyebrow">04 / SOBRE ESTE PORTAFOLIO</p><h2>Aprender haciendo.<br>Mejorar compartiendo.</h2></div>
+          <div class="profile-copy"><p>Este espacio reúne proyectos de práctica orientados a análisis de datos y desarrollo con Python. Cada proyecto incluye código fuente, instrucciones y pruebas para facilitar su revisión.</p><div class="profile-actions"><a class="button button-light" href="https://github.com/cdrrdev-crypto/portafolio-python-jr" target="_blank" rel="noreferrer">Explorar código en GitHub ↗</a><span>GitHub Pages · Gratis · Sin registro</span></div></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer page-width"><a class="brand" href="#inicio">PY<span>/</span>DATA</a><span>Hecho para aprender y compartir · 2026</span><a href="#inicio">Volver arriba ↑</a></footer>
+  </body>
+</html>
