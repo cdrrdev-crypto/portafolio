@@ -4,7 +4,7 @@ Catálogo de libros de consola con operaciones para agregar, listar, buscar y el
 
 ## Demo web
 
-La [demo interactiva](https://cdrrdev-crypto.github.io/portafolio-python-jr/#biblioteca) permite buscar y agregar libros de ejemplo. Los cambios solo existen en la sesión del navegador; la aplicación Python descrita abajo sí guarda los datos en un archivo JSON.
+La [demo interactiva](https://cdrrdev-crypto.github.io/portafolio/#biblioteca) permite buscar y agregar libros de ejemplo. Los cambios solo existen en la sesión del navegador; la aplicación Python descrita abajo sí guarda los datos en un archivo JSON.
 
 ## Instalación
 

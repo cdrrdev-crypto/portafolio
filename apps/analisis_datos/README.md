@@ -27,4 +27,4 @@ python -m unittest apps.analisis_datos.test_analysis -v
 
 ## Demo web
 
-El [dashboard interactivo de ventas](../../docs/index.html#analisis) permite filtrar por categoría y región. La demo web es estática y no ejecuta Python en el servidor.
+El [dashboard interactivo de ventas](https://cdrrdev-crypto.github.io/portafolio/#analisis) permite filtrar por categoría y región. La demo web es estática y no ejecuta Python en el servidor.

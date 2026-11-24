@@ -1,21 +1,21 @@
-# Portafolio Python Junior
+# Portafolio
 
 Portafolio de proyectos para mostrar fundamentos de Python, análisis de datos, consumo de APIs, pruebas automatizadas y control de versiones.
 
 ## Portafolio web
 
-La [interfaz web](https://cdrrdev-crypto.github.io/portafolio-python-jr/) reúne demos interactivas de todos los proyectos y un dashboard de análisis de ventas. Está construida como un sitio estático, sin backend, claves privadas ni servicios de pago. Los datos que se agregan en las demos viven solo en la sesión del navegador; el proyecto de clima consulta Open-Meteo y requiere Internet.
+La [interfaz web](https://cdrrdev-crypto.github.io/portafolio/) reúne demos interactivas de todos los proyectos y un dashboard de análisis de ventas. Está construida como un sitio estático, sin backend, claves privadas ni servicios de pago. Los datos que se agregan en las demos viven solo en la sesión del navegador; el proyecto de clima consulta Open-Meteo y requiere Internet.
 
-El sitio usa GitHub Pages, incluido sin costo para repositorios públicos. En **Settings > Pages**, selecciona **Deploy from a branch**, la rama `main` y la carpeta `/docs`, y guarda. Después de configurarlo, cada push a `main` actualiza el sitio. El enlace anterior estará disponible cuando termine la primera publicación.
+El sitio ya está publicado gratis con GitHub Pages desde la rama `main` y la carpeta `/docs`. Cada push a `main` actualiza el sitio.
 
 ## Aplicaciones
 
 | Proyecto | Qué demuestra | Documentación y demo |
 |---|---|---|
-| [Análisis de ventas](apps/analisis_datos/README.md) | Limpieza, métricas y agrupaciones con `pandas` | [Documentación](apps/analisis_datos/README.md) · [Dashboard](https://cdrrdev-crypto.github.io/portafolio-python-jr/#analisis) |
-| [Consulta del clima](apps/clima_api/README.md) | API REST con `requests`, validación y manejo de errores | [Documentación](apps/clima_api/README.md) · [Demo](https://cdrrdev-crypto.github.io/portafolio-python-jr/#clima) |
-| [Control de gastos](apps/control_gastos/README.md) | CSV, cálculos con `Decimal` y exportación Excel | [Documentación](apps/control_gastos/README.md) · [Demo](https://cdrrdev-crypto.github.io/portafolio-python-jr/#gastos) |
-| [Biblioteca JSON](apps/biblioteca_json/README.md) | Funciones, estructuras de datos y persistencia JSON | [Documentación](apps/biblioteca_json/README.md) · [Demo](https://cdrrdev-crypto.github.io/portafolio-python-jr/#biblioteca) |
+| [Análisis de ventas](apps/analisis_datos/README.md) | Limpieza, métricas y agrupaciones con `pandas` | [Documentación](apps/analisis_datos/README.md) · [Dashboard](https://cdrrdev-crypto.github.io/portafolio/#analisis) |
+| [Consulta del clima](apps/clima_api/README.md) | API REST con `requests`, validación y manejo de errores | [Documentación](apps/clima_api/README.md) · [Demo](https://cdrrdev-crypto.github.io/portafolio/#clima) |
+| [Control de gastos](apps/control_gastos/README.md) | CSV, cálculos con `Decimal` y exportación Excel | [Documentación](apps/control_gastos/README.md) · [Demo](https://cdrrdev-crypto.github.io/portafolio/#gastos) |
+| [Biblioteca JSON](apps/biblioteca_json/README.md) | Funciones, estructuras de datos y persistencia JSON | [Documentación](apps/biblioteca_json/README.md) · [Demo](https://cdrrdev-crypto.github.io/portafolio/#biblioteca) |
 
 ## Requisitos
 

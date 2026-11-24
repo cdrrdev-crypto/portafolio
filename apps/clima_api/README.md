@@ -4,7 +4,7 @@ CLI que busca una ciudad con el servicio de geocodificación de Open-Meteo y pre
 
 ## Demo web
 
-Prueba la [consulta web del clima](https://cdrrdev-crypto.github.io/portafolio-python-jr/#clima) con cualquier ciudad. La demo llama a Open-Meteo desde el navegador; requiere Internet, no usa una API key y no envía datos a un servidor propio.
+Prueba la [consulta web del clima](https://cdrrdev-crypto.github.io/portafolio/#clima) con cualquier ciudad. La demo llama a Open-Meteo desde el navegador; requiere Internet, no usa una API key y no envía datos a un servidor propio.
 
 ## Instalación
 
